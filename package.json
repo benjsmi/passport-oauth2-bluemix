@@ -1,7 +1,7 @@
 {
-  "name": "passport-oauth2",
+  "name": "passport-oauth2-bluemix",
   "version": "1.2.0",
-  "description": "OAuth 2.0 authentication strategy for Passport.",
+  "description": "OAuth 2.0 authentication strategy for Passport--specialized for Bluemix.",
   "keywords": [
     "passport",
     "auth",
@@ -13,16 +13,12 @@
     "oauth2"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Ben Smith",
+    "email": "benjsmi@us.ibm.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-oauth2.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/passport-oauth2/issues"
+    "url": "git://github.com/benjsmi/passport-oauth2-bluemix.git"
   },
   "license": "MIT",
   "licenses": [
@@ -34,7 +30,7 @@
   "main": "./lib",
   "dependencies": {
     "passport-strategy": "1.x.x",
-    "oauth": "0.9.x",
+    "oauth-bluemix": "0.9.x",
     "uid2": "0.0.x"
   },
   "devDependencies": {
